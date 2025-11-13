@@ -8,4 +8,3 @@ router.post('/check-out', presensiController.CheckOut);
 router.delete('/:id', presensiController.deletePresensi);
 router.put('/:id', validatePresensi, presensiController.updatePresensi);
 module.exports = router;
-
